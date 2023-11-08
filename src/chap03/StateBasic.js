@@ -3,9 +3,11 @@ import { useState } from 'react';
 export default function StateBasic({init}) {
    
     const [count, setCount] = useState(init);//1
-    console.log(init);
-    const handleClick = () => setCount(count + 1);//2
-    console.log(count);
+
+    const handleClick = () => {
+        setCount(c => c + 1);
+        setCount(c => c + 1);
+    };
     
     return (
         <>
