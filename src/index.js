@@ -32,12 +32,13 @@ import EventPassive from './chap03/EventPassive';
 import StateFromUC from './chap04/StateFromUC';
 import FormTextarea from './chap04/FormTextarea';
 import FormSelect from './chap04/FormSelect';
-
+import FormList from './chap04/FormList';
+import FormRadio from './chap04/FormRadio';
 const root = ReactDOM.createRoot(document.getElementById('root'));//ここから4
 
 
 root.render(
-  <FormSelect/>
+  <FormRadio/>
 )
 
 
