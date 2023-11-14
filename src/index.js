@@ -23,12 +23,21 @@ import EventCompare from './chap03/EventCompare';
 import EventError from './chap03/EventError';
 import EventObj from './chap03/EventObj';
 import EventPoint from './chap03/EventPoint';
+import EventKey from './chap03/EventKey';
+import EventArgs from './chap03/EventArgs';
+import EventArgs2 from './chap03/EventArgs2';
+import EventPropagation from './chap03/EventPropagation';
+import EventOnce from './chap03/EventOnce';
+import EventPassive from './chap03/EventPassive';
+import StateFromUC from './chap04/StateFromUC';
+import FormTextarea from './chap04/FormTextarea';
+import FormSelect from './chap04/FormSelect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));//ここから4
 
 
 root.render(
-  <EventPoint/>
+  <FormSelect/>
 )
 
 
