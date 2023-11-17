@@ -34,11 +34,16 @@ import FormTextarea from './chap04/FormTextarea';
 import FormSelect from './chap04/FormSelect';
 import FormList from './chap04/FormList';
 import FormRadio from './chap04/FormRadio';
+import FormCheck from './chap04/FormCheck';
+import FormCheckMulti from './chap04/FormCheckMulti';
+import FormFile from './chap04/FormFile';
+import StateNest from './chap04/StateNest';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));//ここから4
 
 
 root.render(
-  <FormRadio/>
+  <StateNest/>
 )
 
 
